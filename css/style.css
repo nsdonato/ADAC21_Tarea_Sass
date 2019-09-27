@@ -12,12 +12,12 @@ p {
   height: 1024px;
 }
 
-.main .container {
+.main .main__container {
   margin: 0 auto;
   width: 80%;
 }
 
-.main .container nav {
+.main .main__container .main__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,21 +31,21 @@ p {
   padding-top: 20px;
 }
 
-.main .container nav .enterprise_name {
+.main .main__container .main__nav .main__nav_enterprise_name {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 36px;
   font-weight: 600;
   color: #99f7e2;
 }
 
-.main .container nav .menu_icon {
+.main .main__container .main__nav .main__nav_menu_icon {
   width: 36px;
   height: 36px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
-.main .container .we_are {
+.main .main__container .main__we_are {
   height: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,14 +58,14 @@ p {
           align-items: center;
 }
 
-.main .container .we_are .we_are_text {
+.main .main__container .main__we_are .main__we_are_header_title {
   font-family: "Libre Baskerville", serif;
   font-size: 64px;
   line-height: 1.5;
   color: #99f7e2;
 }
 
-.main .container .we_are .our_work_text {
+.main .main__container .main__we_are .main__we_are_header_text {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -73,25 +73,25 @@ p {
   color: #ffffff;
 }
 
-.main .container .we_are .dots {
+.main .main__container .main__we_are .main__we_are_dots {
   position: absolute;
   right: 20px;
-  top: 350px;
+  top: 400px;
 }
 
-.main .container .we_are .dots .slider_bullets {
+.main .main__container .main__we_are .main__we_are_dots .main__we_are_slider_bullets {
   width: 12px;
   height: 153px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
-.main .container .mouse {
+.main .main__container .main__mouse {
   padding-bottom: 15px;
   text-align: center;
 }
 
-.main .container .mouse .mouse-Icon {
+.main .main__container .main__mouse .main__mouse_mouse_icon {
   width: 36px;
   height: 36px;
   -o-object-fit: contain;
@@ -102,7 +102,7 @@ p {
   height: 1024px;
 }
 
-.products .products_information {
+.products .products__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,7 +116,7 @@ p {
   height: 1024px;
 }
 
-.products .products_information .products_img_left {
+.products .products__container .products__left {
   width: 802px;
   height: 517px;
   position: absolute;
@@ -124,14 +124,14 @@ p {
   z-index: 1;
 }
 
-.products .products_information .products_img_left .products_persons_image {
+.products .products__container .products__left .products__left_img {
   width: 802px;
   height: 517px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
-.products .products_information .products_info_rigth {
+.products .products__container .products__rigth {
   width: 705px;
   height: 734px;
   background-color: #f5f3f8;
@@ -139,8 +139,7 @@ p {
   right: 0;
 }
 
-.products .products_information .products_info_rigth .products_info {
-  width: 60%;
+.products .products__container .products__rigth .products__rigth_info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,21 +147,23 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  height: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding-left: 30px;
+  width: 55%;
 }
 
-.products .products_information .products_info_rigth .products_info .products_header_text {
+.products .products__container .products__rigth .products__rigth_info .products__rigth_info_header {
   font-family: "Libre Baskerville", serif;
   font-size: 46px;
   line-height: 1.5;
   color: #7452a3;
 }
 
-.products .products_information .products_info_rigth .products_info .products_text_info {
+.products .products__container .products__rigth .products__rigth_info .products__rigth_info_main_text {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -170,10 +171,13 @@ p {
   color: #060606;
 }
 
-.products .products_information .products_info_rigth .products_info .products_text_link {
+.products .products__container .products__rigth .products__rigth_info .products__rigth_info_link {
   font-family: Helvetica;
   font-size: 18px;
   line-height: 2;
   color: #67b3ff;
+  width: 293px;
+  height: 41px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
