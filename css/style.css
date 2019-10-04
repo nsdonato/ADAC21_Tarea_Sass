@@ -74,9 +74,10 @@ p {
 }
 
 .main .main__container .main__we_are .main__we_are_dots {
-  position: absolute;
+  position: fixed;
   right: 20px;
-  top: 400px;
+  top: 350px;
+  z-index: 2;
 }
 
 .main .main__container .main__we_are .main__we_are_dots .main__we_are_slider_bullets {

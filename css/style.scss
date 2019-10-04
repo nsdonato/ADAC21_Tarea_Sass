@@ -58,9 +58,10 @@ p {
         color: #ffffff;
       }
       .main__we_are_dots {
-        position: absolute;
+        position: fixed;
         right: 20px;
-        top: 400px;
+        top: 350px;
+        z-index: 2;
         .main__we_are_slider_bullets {
           width: 12px;
           height: 153px;
